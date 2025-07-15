@@ -1,0 +1,31 @@
+const tipologias = [
+    { id: 1, key: 'tipologia01', nome: 'IDT' },
+    { id: 2, key: 'tipologia02', nome: 'Criação de núcleo de I&D' },
+    { id: 3, key: 'tipologia03', nome: 'Criação de novo estabelecimento' },
+    { id: 4, key: 'tipologia04', nome: 'Requalificação hoteleira' },
+    { id: 6, key: 'tipologia06', nome: 'Aumento de capacidade do estabelecimento' },
+    { id: 7, key: 'tipologia07', nome: 'Diversificação dos produtos/serviços disponibilizados' },
+    { id: 8, key: 'tipologia08', nome: 'Prospeção e presença em mercados internacionais' },
+    { id: 9, key: 'tipologia09', nome: 'Estudos' },
+    { id: 10, key: 'tipologia10', nome: 'Formação/Educação' },
+    { id: 11, key: 'tipologia11', nome: 'Eficiência energética' },
+    { id: 12, key: 'tipologia12', nome: 'Mobilidade sustentável' },
+    { id: 13, key: 'tipologia13', nome: 'Património natural e cultural' },
+    { id: 14, key: 'tipologia14', nome: 'Regeneração e ambiente urbano' },
+    { id: 15, key: 'tipologia15', nome: 'Valorização de recursos endógenos' },
+    { id: 16, key: 'tipologia16', nome: 'Emprego' },
+    { id: 17, key: 'tipologia17', nome: 'Inclusão social' },
+    { id: 18, key: 'tipologia18', nome: 'TIC' },
+    { id: 19, key: 'tipologia19', nome: 'Capacitação' },
+    { id: 20, key: 'tipologia20', nome: 'Ciclo urbano da água' },
+    { id: 21, key: 'tipologia21', nome: 'Resíduos' },
+    { id: 22, key: 'tipologia22', nome: 'Economia circular' },
+    { id: 23, key: 'tipologia23', nome: 'Infraestruturas de educação' },
+    { id: 24, key: 'tipologia24', nome: 'Infraestruturas de saúde' },
+    { id: 25, key: 'tipologia25', nome: 'Adaptação às alterações climáticas' },
+    { id: 26, key: 'tipologia26', nome: 'Corredores verdes' },
+    { id: 27, key: 'tipologia27', nome: 'Proteção civil' },
+    { id: 28, key: 'tipologia28', nome: 'Outros' }
+]
+
+export default tipologias

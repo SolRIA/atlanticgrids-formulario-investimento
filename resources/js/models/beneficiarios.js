@@ -4,7 +4,8 @@ const beneficiarios = [
     { id: 3, key: 'beneficiario3', nome: 'Entidade pública ou equiparada' },
     { id: 4, key: 'beneficiario4', nome: 'Entidade sem fins lucrativos' },
     { id: 5, key: 'beneficiario6', nome: 'IPSS' },
-    { id: 6, key: 'beneficiario7', nome: 'Entidade formadora' }
+    { id: 6, key: 'beneficiario7', nome: 'Entidade formadora' },
+    { id: 7, key: 'beneficiario8', nome: 'Outra' }
 ]
 
 export default beneficiarios

@@ -6,6 +6,57 @@ export interface Auth {
     user: User;
 }
 
+export interface Contacto {
+    nome: string,
+    empresa: string,
+    telefone: string,
+    email: string
+}
+
+export interface Caracterizacao {
+    nome: string,
+    nif: string,
+    distrito: number | null,
+    concelho: number | null,
+    localidade: string,
+    tipo: string,
+    empresa_mais_dois_anos: boolean,
+    grande_empresa: boolean,
+    sector: string,
+    cae: string
+}
+
+export interface Projeto {
+    designacao: string,
+    distrito: string,
+    concelho: string,
+    freguesia: Freguesia | null,
+    tipologia: number,
+    custo: number
+}
+
+export interface SelectType {
+    id: number;
+    nome: string
+}
+
+export interface Distrito {
+    id: number;
+    nome: string
+}
+
+export interface Concelho {
+    id: number;
+    distrito_id: number;
+    nome: string
+}
+
+export interface Freguesia {
+    id: number;
+    concelho_id: number;
+    nome: string
+}
+
 export interface BreadcrumbItem {
     title: string;
     href: string;
